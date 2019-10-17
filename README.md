@@ -1,17 +1,18 @@
 # Java-Converter
 Advanced Application Assignment
+
 import java.util.*;
  
-class FahrenheitToCelsius {
+class Fahrenhei_To_Celsius {
   public static void main(String[] args) {
-    float temperature;
+    float temp;
     Scanner in = new Scanner(System.in);
  
     System.out.println("Enter temperature in Fahrenheit");
-    temperature = in.nextInt();
+    temp = in.nextInt();
  
-    temperature = ((temperature - 32)*5)/9;
+    temp = ((temp - 32)*5)/9;
  
-    System.out.println("temperature in Celsius = " + temperature);
+    System.out.println("temperature in Celsius = " + temp);
   }
 }
