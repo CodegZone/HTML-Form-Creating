@@ -1,19 +1,19 @@
 <html>
   <form>
 <p>
-<label>Name
+<label>Name :
 <input type="text" name="customer_name" required>
 </label> 
 </p>
 
 <p>
-<label>Phone 
+<label>Phone : 
 <input type="tel" name="phone_number">
 </label>
 </p>
 
 <p>
-<label>Email 
+<label>Email :
 <input type="email" name="email_address">
 </label>
 </p>
