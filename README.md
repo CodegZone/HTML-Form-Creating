@@ -25,5 +25,11 @@
 <p><label> <input type="radio" name="taxi" required value="tuktuk"> Tuk Tuk </label></p>
 </fieldset>
 
+<fieldset>
+<legend>Extras</legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
+</fieldset>
 </form>
 </html>
