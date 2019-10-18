@@ -31,5 +31,24 @@
 <p><label> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
 <p><label> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
 </fieldset>
+
+
+<p>
+<label>Pickup Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Pickup Place
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Taxi Office</option>
+<option value="town_hall" >Town Hall</option>
+<option value="telepathy" >We'll Guess!</option>
+</select>
+</label> 
+</p>
+
 </form>
 </html>
