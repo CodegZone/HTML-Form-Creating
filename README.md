@@ -76,7 +76,10 @@
     </div>
   </div>
 </div>
-
+<p>
+<label>Dropoff Place
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
 <datalist id="destinations">
 <option value="Airport">
 <option value="Beach">
