@@ -77,12 +77,6 @@
   </div>
 </div>
 
-<p>
-<label>Special Instructions
-<textarea name="comments" maxlength="500">
-</textarea>
-</label>
-</p>
 
 <p><button>Submit Booking</button></p>
 
